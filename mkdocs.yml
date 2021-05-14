@@ -1,0 +1,23 @@
+site_name: SHOPLINKER 메뉴얼
+
+theme:
+    name: gitbook
+
+extra_css: 
+  - css/extra.css
+
+nav :
+  - 서비스 안내 : index.md
+  - 샵링커 사용법 : 
+      - '쇼핑몰 계정세팅' : shoplinker/account.md
+      - '그룹관리' : shoplinker/group.md
+      - '샵링커 상품관리' : shoplinker/sl_product.md
+      - '쇼핑몰 상품관리' : shoplinker/mall_product.md
+      - '주문관리' : shoplinker/order.md
+      - '클레임관리' : shoplinker/claim.md
+      - '문의관리' : shoplinker/cs.md
+  - 쇼핑몰 사용법 : 
+      - '11번가' : mall/mall0025.md 
+      - '(주)옥션' : mall/mall0003.md
+      - '카페24' : mall/mall0248.md
+  - 환경설정 : setting.md
