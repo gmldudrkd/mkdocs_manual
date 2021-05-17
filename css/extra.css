@@ -1,0 +1,15 @@
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  color : #848484;
+}
+
+.page-wrapper{
+    width: 70%
+}
+.page-inner{
+    width: 100%
+}
