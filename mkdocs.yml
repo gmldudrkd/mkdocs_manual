@@ -1,8 +1,5 @@
 site_name: SHOPLINKER 메뉴얼
 
-theme:
-    name: gitbook
-
 extra_css: 
   - css/extra.css
 
