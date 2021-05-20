@@ -33,3 +33,19 @@
 ## 쇼핑몰 송장전송
 * **[메뉴위치] : 주문연동관리 > 송장송신관리**
 * 설명작성,,,,,
+
+
+<br>
+
+# 주문서 확인/처리 사용법
+
+---
+
+## 개인통관부호 확인방법
+![주문스케줄설정](http://chch1212.image01.shoplinker.kr/notice/tongguan.jpg "주문스케줄설정")
+
+## 문자일괄발송방법
+![주문스케줄설정](http://chch1212.image01.shoplinker.kr/0909/200901_%EB%AC%B8%EC%9E%90%EC%9D%BC%EA%B4%84%EB%B0%9C%EC%86%A1%EB%B0%A9%EB%B2%95.jpg "주문스케줄설정")
+
+## 쇼핑몰 상품 코드매칭 방법
+![주문스케줄설정](http://chch1212.image01.shoplinker.kr/notice/guide/code.jpg "주문스케줄설정")
