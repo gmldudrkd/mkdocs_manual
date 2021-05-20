@@ -1,7 +1,9 @@
 site_name: SHOPLINKER 메뉴얼
 
 theme:
-    name: readthedocs
+  name: null
+  custom_dir: 'cinder'
+  colorscheme: dracula
 
 extra_css: 
   - css/extra.css
