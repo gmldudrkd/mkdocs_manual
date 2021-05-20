@@ -22,4 +22,5 @@ nav :
       - '11번가' : mall/mall0025.md 
       - '(주)옥션' : mall/mall0003.md
       - '카페24' : mall/mall0248.md
+      - '스마트스토어' : mall/mall0148.md
   - 환경설정 : setting.md
