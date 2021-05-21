@@ -19,3 +19,16 @@
 * **[메뉴위치] : 상품관리 > 상품조회/수정**
 * 등록한 고객사 및 매입처의 상품 DB를 검색 또는 관리하는 화면입니다.
 ![대체텍스트](http://chch1212.image01.shoplinker.kr/0909/200901changebibun.jpg "계정세팅 수정")
+
+
+# 쇼핑몰상품 조회/수정 사용법
+
+---
+## 그룹일괄 수정방법
+![대체텍스트](http://chch1212.image01.shoplinker.kr/notice/guide/group.jpg "계정세팅 수정")
+
+## 연동상품 수정방법
+![대체텍스트](http://chch1212.image01.shoplinker.kr/0909/200824liandong.jpg "계정세팅 수정")
+
+## 코드 통합관리란?
+![대체텍스트](http://chch1212.image01.shoplinker.kr/0909/codetonghap.jpg "계정세팅 수정")
