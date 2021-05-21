@@ -1,6 +1,11 @@
 <br>
 
-# 샵링커
+![대체 텍스트]( https://www.shoplinker.co.kr/images/content/logo_big.png "옥션 계정 세팅방법") 
+
+<br>
+
+# 샵링커 사용하기
+
 --- 
 샵링커 가입하기 ☞
 [GO](https://www.shoplinker.co.kr/member/o_join)

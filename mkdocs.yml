@@ -12,7 +12,7 @@ nav :
   - 서비스 안내 : index.md
   - 샵링커 사용법 : 
       - '쇼핑몰 계정세팅' : shoplinker/account.md
-      - '그룹관리' : shoplinker/group.md
+      - '그룹관리' : shoplinker/group_set.md
       - '샵링커 상품관리' : shoplinker/sl_product.md
       - '쇼핑몰 상품관리' : shoplinker/mall_product.md
       - '주문관리' : shoplinker/order.md
