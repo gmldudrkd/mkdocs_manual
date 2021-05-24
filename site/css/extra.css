@@ -13,3 +13,90 @@ h2 {
 .page-inner{
     width: 100%
 }
+
+
+.applymall-title {padding:40px 0 20px 0;font-size:18px;font-weight:bold;color:#666}
+.applymall-title:before {content:'';display:inline-block;width:4px;height:20px;margin-right:10px;vertical-align:middle;background:#4c5eca}
+.mall-search-wrap {min-height:144px;padding-top:20px;background:#fff;box-sizing:border-box;transition:all 0.20s ease-in-out}
+.mall-search-box {overflow:hidden;padding:0 15%;transition:all 0.20s ease-in-out}
+.all-view {display:none;float:left;padding:5px 5px 0}
+.all-view button {height:34px;width:70px;border-radius: 20px;color: #fff;font-family: "돋움",Dotum,sans-serif;font-size: 11px;background-color: #333}
+
+.mall-search-word {position:relative;height:45px;padding:0 20px;border:2px solid #4c5eca;border-radius:22px;background-color:#fff}
+.mall-search-word > input {display:block;width:calc(100% - 34px);height:100%;padding:0;border:0 none;outline:0 none;font-size:16px}
+.mall-search-word > button {position:absolute;right:3px;top:3px;width:34px;height:34px;border:0 none;border-radius:50%;text-indent:-9999px;background:#4c5eca url(/images/bg_search_btn.png) no-repeat 9px 8px}
+.mall-search-btn {margin:30px auto 0;font-size:0;text-align:center;border-bottom:1px solid #ccc}
+.mall-search-btn li {display:inline-block;min-width:20%;padding:0 2px;box-sizing:border-box}
+.mall-search-btn li:first-child {padding-left:0}
+.mall-search-btn li button {display:block;width:100%;padding:15px 20px;text-align:center;color:#111;font-weight:bold;border:1px solid #ccc;border-bottom:0;border-radius:5px 5px 0 0;background-color:#fff;box-sizing:border-box}
+/* .mall-search-btn span button:before {content:'';display:inline-block;width:20px;height:18px;margin-right:10px;vertical-align:top;background:transparent url(/images/bg/bg_malltype_ico.png) no-repeat 0 0}
+.mall-search-btn span:nth-child(2) button:before {background-position-x:-20px}
+.mall-search-btn span:nth-child(3) button:before {background-position-x:-40px}
+.mall-search-btn span:nth-child(4) button:before {background-position-x:-60px} */
+.mall-search-btn li button.on {color:#fff;border-color:#3a4bb1;background-color:#4c5eca}
+.mall-search-btn li button.on:before {background-position-y:-18px}
+
+.mall-search-wrap.fix {width:100%;position:fixed;left:0;top:0;z-index:999999;background-size:auto;box-shadow:0 1px 4px rgba(0,0,0,.18)}
+.mall-search-wrap.fix + .mallType {padding-top:160px}
+.mall-search-wrap.fix .mall-search-box {padding:0 30%}
+.mall-search-wrap.fix .mall-search-btn {border-bottom-width:2px;border-color:#4c5eca}
+.sch-result {transform:translateY(50%)}
+.sch-result .mall-search-word {float:left;width:calc(100% - 124px)}
+.sch-result + .mall-search-btn {display:none}
+.sch-result .all-view {display:block}
+
+.mall-list-wrap {overflow:hidden;margin:20px -5px}
+.mall-list-wrap li {position:relative;padding:20px 5px;width:25%;float:left;box-sizing:border-box}
+.mall-list-wrap li > div > span,.mall-list-wrap li > div > strong {display:block}
+.mall-list-wrap li > div > span {padding:5px 15px;text-align:center}
+.mall-list-wrap li > div > span img {vertical-align:top;max-width:100%}
+.mall-list-wrap li > div > strong {opacity:0;position:absolute;left:0;top:0;z-index:100;width:100%;height:100%;padding-top:30px;font-size:20px;color:#fff;text-align:center;text-shadow:1px 1px 0 #000;box-sizing:border-box;transition:all 0.20s ease-in-out}
+.mall-list-wrap li > div:hover > strong,.mall-list-wrap li > div:hover > dl {opacity:1}
+.mall-list-wrap li > div > dl{padding:10px;opacity:0;font-size:0;color:#fff;box-sizing:border-box;font-family:"돋움",Dotum,sans-serif}
+.mall-list-wrap li > div > dl dt {margin-bottom:5px;font-size:14px;text-shadow:1px 1px 0 #000}
+.mall-list-wrap li > div > dl dd {display:inline-block;margin:2px;padding:2px 3px;border-radius:3px;font-size:11px;background-color:#333}
+.mall-list-wrap li > div > strong:after,.mall-list-wrap li > div > dl {
+    content:'';position:absolute;left:0;top:0;width:100%;height:100%;border-radius:5px;
+    -webkit-backface-visibility:hidden;transform-style:preserve-3d;transform:rotateY(-180deg);
+    transition:all 0.20s ease-in-out
+
+}
+.mall-list-wrap li > div > strong:after {z-index:-1}
+.mall-list-wrap li > div:hover > strong:after,.mall-list-wrap li > div:hover > dl {
+    transform:rotateX(0deg) rotateY(0deg);
+    background-color:#606ebd
+}
+
+
+
+.resultSch {display:none}
+.no-data {display:none;padding:60px 0;text-align:center}
+.no-data span {display:block;margin-bottom:15px}
+.no-data strong {color:#555;font-family:"돋움",Dotum,sans-serif}
+.no-data strong em {font-weight:bold;border-bottom:1px solid #4c5eca;color:#4c5eca}
+.no-data strong em:before,.no-data strong em:after {content:"'"}
+
+.new-support-mall {width:100%;table-layout:fixed;text-align:center;word-break:keep-all;}
+.new-support-mall th,.new-support-mall td {
+    height:40px;padding:8px;border:1px solid #dadada;vertical-align:middle;text-align:center;
+}
+.new-support-mall th {border-top:2px solid #333;background:#f5f5f5}
+.new-support-mall td {border-top-color:#e6e6e6;border-bottom-color:#e6e6e6}
+.new-support-mall td.support-yes span:before {content:'';display:inline-block;width:12px;height:8px;border:1px solid #b1b1b1;border-top:0;border-right:0;transform:rotate(-47deg)}
+.new-support-mall td.support-no {background:#f8f8f8}
+.new-support-mall td.support-no span:before {content:'';display:inline-block;width:10px;height:1px;background-color:#dadada}
+.new-support-mall td img {max-width:90%}
+.new-support-mall .no-data {display:table-cell;padding:15px}
+.new-support-mall .no-data img {max-width:100px;margin-right:10px;vertical-align:middle}
+.new-support-mall .no-data  em {font-weight:bold;border-bottom-color:#2184ff;color:#2184ff}
+
+.new-support-mall th:nth-child(1),.new-support-mall td:nth-child(1) {width:190px}
+.new-support-mall th:nth-child(2),.new-support-mall td:nth-child(2) {width:130px}
+.new-support-mall th:nth-child(n+3),.new-support-mall td:nth-child(n+3) {width: calc((100% - 320px) / 6)}
+
+.mall-search-wrap.fix + .new-support-mall {display:block;padding-top:60px}
+.mall-search-wrap.fix + .new-support-mall thead {position:fixed;z-index:10}
+.mall-search-wrap.fix + .new-support-mall thead tr {display:table;table-layout:fixed;border-collapse:collapse;width:100%}
+.mall-search-wrap.fix + .new-support-mall thead tr th {}
+.mall-search-wrap.fix + .new-support-mall tbody {display:table;width:100%}
+
