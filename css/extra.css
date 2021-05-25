@@ -18,7 +18,7 @@ h2 {
 .applymall-title {padding:40px 0 20px 0;font-size:18px;font-weight:bold;color:#666}
 .applymall-title:before {content:'';display:inline-block;width:4px;height:20px;margin-right:10px;vertical-align:middle;background:#4c5eca}
 .mall-search-wrap {min-height:144px;padding-top:20px;background:#fff;box-sizing:border-box;transition:all 0.20s ease-in-out}
-.mall-search-box {overflow:hidden;padding:0 15%;transition:all 0.20s ease-in-out}
+.mall-search-box {overflow:hidden;padding:0 10%;transition:all 0.20s ease-in-out}
 .all-view {display:none;float:left;padding:5px 5px 0}
 .all-view button {height:34px;width:70px;border-radius: 20px;color: #fff;font-family: "돋움",Dotum,sans-serif;font-size: 11px;background-color: #333}
 
