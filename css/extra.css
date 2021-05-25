@@ -80,15 +80,9 @@ h2 {
 .new-support-mall th,.new-support-mall td {
     height:40px;padding:8px;border:1px solid #dadada;vertical-align:middle;text-align:center;
 }
-.new-support-mall th {border-top:2px solid #333;background:#f5f5f5}
+.new-support-mall th {border-top:2px solid #333;background:#f5f5f5;font-size: 13px}
 .new-support-mall td {border-top-color:#e6e6e6;border-bottom-color:#e6e6e6}
-.new-support-mall td.support-yes span:before {content:'';display:inline-block;width:12px;height:8px;border:1px solid #b1b1b1;border-top:0;border-right:0;transform:rotate(-47deg)}
-.new-support-mall td.support-no {background:#f8f8f8}
-.new-support-mall td.support-no span:before {content:'';display:inline-block;width:10px;height:1px;background-color:#dadada}
 .new-support-mall td img {max-width:90%}
-.new-support-mall .no-data {display:table-cell;padding:15px}
-.new-support-mall .no-data img {max-width:100px;margin-right:10px;vertical-align:middle}
-.new-support-mall .no-data  em {font-weight:bold;border-bottom-color:#2184ff;color:#2184ff}
 
 .new-support-mall th:nth-child(1),.new-support-mall td:nth-child(1) {width:190px}
 .new-support-mall th:nth-child(2),.new-support-mall td:nth-child(2) {width:130px}

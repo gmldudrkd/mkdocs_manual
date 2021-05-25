@@ -161,7 +161,7 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#_1">쇼핑몰 안내</a></li>
+        <li class="first-level active"><a href="#_1">지원 쇼핑몰 안내</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -192,16 +192,18 @@
 
 </script>
 
-<h1 id="_1">쇼핑몰 안내</h1>
+<h1 id="_1">지원 쇼핑몰 안내</h1>
+<ul>
+<li>쇼핑몰 명 클릭 시 해당 쇼핑몰 사용안내 페이지로 이동합니다.</li>
+</ul>
 <hr />
 <p><html></p>
-<p id="aaa"></p>
 <div class="content-wrap">
     <div class="mall-wrap">
         <div class="mall-search-wrap">
             <div class="mall-search-box">
                 <div class="mall-search-word">
-                    <input type="text" title="쇼핑몰 검색" />
+                    <input type="text" title="쇼핑몰 검색" id = "search_text" onKeypress="javascript:if(event.keyCode==13) enter_key()"/>
                     <button type="button">검색</button>
                 </div>
                 <span class="all-view"><button type="button">전체보기</button></span>
@@ -215,11 +217,11 @@
             <tr>
                 <th scope="col">쇼핑몰</th>
                 <th scope="col">쇼핑몰명</th>
-                <th scope="col">상품<br>등록</th>
-                <th scope="col">상품<br>수정</th>
-                <th scope="col">주문<br>수집</th>
-                <th scope="col">송장<br>전송</th>
-                <th scope="col">문의<br>후기</th>
+                <th scope="col">상품등록</th>
+                <th scope="col">상품수정</th>
+                <th scope="col">주문수집</th>
+                <th scope="col">송장전송</th>
+                <th scope="col">문의후기</th>
                 <th scope="col">클레임</th>
             </tr>
         </thead>
@@ -239,6 +241,16 @@
         };
         return false;
     });
+
+    function enter_key(){
+        var schTxt = $("#search_text").val();
+        if(!schTxt){
+            alert("검색하실 쇼핑몰명을 입력해주세요");
+        }else{
+            sortKeyword(schTxt);
+        };
+        return false;
+    }
 
     // 키워드 검색
     function sortKeyword(txt){
