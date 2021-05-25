@@ -24,7 +24,7 @@ h2 {
 
 .mall-search-word {position:relative;height:45px;padding:0 20px;border:2px solid #4c5eca;border-radius:22px;background-color:#fff}
 .mall-search-word > input {display:block;width:calc(100% - 34px);height:100%;padding:0;border:0 none;outline:0 none;font-size:16px}
-.mall-search-word > button {position:absolute;right:3px;top:3px;width:34px;height:34px;border:0 none;border-radius:50%;text-indent:-9999px;background:#4c5eca url(../images/bg_search_btn.png) no-repeat 9px 8px}
+.mall-search-word > button {position:absolute;right:3px;top:3px;width:34px;height:34px;border:0 none;border-radius:50%;text-indent:-9999px;background:#4c5eca url(https://gmldudrkd.github.io/mkdocs_manual/images/bg_search_btn.png) no-repeat 9px 8px}
 .mall-search-btn {margin:30px auto 0;font-size:0;text-align:center;border-bottom:1px solid #ccc}
 .mall-search-btn li {display:inline-block;min-width:20%;padding:0 2px;box-sizing:border-box}
 .mall-search-btn li:first-child {padding-left:0}

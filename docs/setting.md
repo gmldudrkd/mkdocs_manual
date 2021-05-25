@@ -1,6 +1,6 @@
 
 
-<script language="javascript" src="../js/jquery-3.6.0.min.js "></script>
+<script language="javascript" src="https://gmldudrkd.github.io/mkdocs_manual/js/jquery-3.6.0.min.js "></script>
 <script type="text/javascript">
 
     $(document).ready(function() {
