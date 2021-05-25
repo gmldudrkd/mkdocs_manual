@@ -9,7 +9,6 @@ extra_css:
   - css/extra.css
 
 nav :
-  - 서비스 안내 : index.md
   - 샵링커 사용법 : 
       - '쇼핑몰 계정세팅' : shoplinker/account.md
       - '그룹관리' : shoplinker/group_set.md
