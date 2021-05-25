@@ -372,8 +372,7 @@
 * <font size="2px">별도 안내가 없는 쇼핑몰의 경우 이동하지 않습니다.</font>
 
 --- 
-
-
+## 쇼핑몰 검색
 
 <html>
 <div class="content-wrap">
@@ -414,21 +413,13 @@
 <script type="text/javascript">
     $(".mall-search-word button").on("click",function(){
         var schTxt = $(this).prev().val();
-        if(!schTxt){
-            alert("검색하실 쇼핑몰명을 입력해주세요");
-        }else{
-            sortKeyword(schTxt);
-        };
+        sortKeyword(schTxt);
         return false;
     });
 
     function enter_key(){
         var schTxt = $("#search_text").val();
-        if(!schTxt){
-            alert("검색하실 쇼핑몰명을 입력해주세요");
-        }else{
-            sortKeyword(schTxt);
-        };
+        sortKeyword(schTxt);
         return false;
     }
 

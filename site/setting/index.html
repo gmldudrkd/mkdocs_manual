@@ -156,6 +156,8 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#_1">지원 쇼핑몰 안내</a></li>
+            <li class="second-level"><a href="#_2">쇼핑몰 검색</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -535,6 +537,7 @@
 <li><font size="2px">별도 안내가 없는 쇼핑몰의 경우 이동하지 않습니다.</font></li>
 </ul>
 <hr />
+<h2 id="_2">쇼핑몰 검색</h2>
 <p><html></p>
 <div class="content-wrap">
     <div class="mall-wrap">
@@ -572,21 +575,13 @@
 <script type="text/javascript">
     $(".mall-search-word button").on("click",function(){
         var schTxt = $(this).prev().val();
-        if(!schTxt){
-            alert("검색하실 쇼핑몰명을 입력해주세요");
-        }else{
-            sortKeyword(schTxt);
-        };
+        sortKeyword(schTxt);
         return false;
     });
 
     function enter_key(){
         var schTxt = $("#search_text").val();
-        if(!schTxt){
-            alert("검색하실 쇼핑몰명을 입력해주세요");
-        }else{
-            sortKeyword(schTxt);
-        };
+        sortKeyword(schTxt);
         return false;
     }
 
