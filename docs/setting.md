@@ -1,6 +1,6 @@
 
 
-<script language="javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="javascript" src="../js/jquery-3.6.0.min.js "></script>
 <script type="text/javascript">
 
     $(document).ready(function() {
@@ -13,7 +13,7 @@
             var mall_info2 = mall_status[i].split("^^");
             table_txt += "<tr>";
             table_txt += "<td><img src='https://www.shoplinker.co.kr/images/mall/apply/ico_"+mall_info[0]+".png' /></td>";
-            table_txt += "<td><a href='/mall/"+mall_info[0]+"/'>"+mall_info[1]+"</a></td>";
+            table_txt += "<td><a href='../mall/"+mall_info[0]+"/'>"+mall_info[1]+"</a></td>";
             for(var ii = 0; ii < 6; ii++){
                 var use_txt = "X";
                 if(mall_info2[ii] == "Y"){use_txt = "O";}
